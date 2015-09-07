@@ -370,6 +370,8 @@ static NSString *ImageKeyPath = @"image";
         return;
     }
     
+    point = self.imageView.center;
+    
     CGRect zoomRect = self.isZoomed ? [self bounds] : [self zoomRectForScale:self.maximumZoomScale
                                                                   withCenter:point];
     [self zoomToRect:zoomRect animated:YES];

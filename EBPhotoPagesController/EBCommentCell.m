@@ -159,8 +159,8 @@
         [self.commentTextLabel setAttributedText:[comment attributedCommentText]];
     }
     
-    if([comment respondsToSelector:@selector(commentText)]) {
-        [self.commentTextLabel setText:[comment commentText]];
+    if([comment respondsToSelector:@selector(ebCommentText)]) {
+        [self.commentTextLabel setText:[comment ebCommentText]];
     }
     
     [self resizeTextLabel];

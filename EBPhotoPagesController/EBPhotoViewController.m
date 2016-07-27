@@ -530,7 +530,7 @@ static NSString *TagPopoversKeyPath = @"tagPopovers";
        [comment attributedCommentText]){
         textForRow = [[comment attributedCommentText] string];
     } else {
-        textForRow = [comment commentText];
+        textForRow = [comment ebCommentText];
     }
     
     //Get values from the comment cell itself, as an abstract class perhaps.

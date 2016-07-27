@@ -606,7 +606,7 @@ static NSString *TagPopoversKeyPath = @"tagPopovers";
         }
         
         if(copiedText == nil){
-            copiedText = [comment commentText];
+            copiedText = [comment ebCommentText];
         }
         
         [[UIPasteboard generalPasteboard] setString:copiedText];

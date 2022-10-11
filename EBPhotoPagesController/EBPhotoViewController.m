@@ -723,7 +723,7 @@ static NSString *TagPopoversKeyPath = @"tagPopovers";
     for(id<EBPhotoTagProtocol>tag in tagsToShow){
         EBTagPopover *tagPopover = [self.delegate photoViewController:self
                                                       tagPopoverForTag:tag];
-        [tagPopover setNormalizedArrowPoint:tag.normalizedPosition];
+        [tagPopover setNormalizedArrowPoint:tag.ebNormalizedPosition];
         [tagPopover setDelegate:self];
         [tagPopover setAlpha:0];
         [newTagPopovers addObject:tagPopover];

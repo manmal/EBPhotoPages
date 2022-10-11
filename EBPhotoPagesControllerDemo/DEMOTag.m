@@ -36,7 +36,7 @@
 }
 
 
-- (CGPoint)normalizedPosition
+- (CGPoint)ebNormalizedPosition
 {
     return self.tagPosition;
 }

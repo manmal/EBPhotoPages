@@ -26,7 +26,7 @@
  of an image is (0,0) and the bottom right is (1,1). Since the position is normalized, a tag's 
  position is independent of any particular scale factor applied to an image's width or height.
  */
-- (CGPoint)normalizedPosition;
+- (CGPoint)ebNormalizedPosition;
 
 @optional
 
